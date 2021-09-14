@@ -1,7 +1,30 @@
+main, header, section, aside, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000;
+    color: white;
+}
+
+main {
+    background: red;
+}
+
 .header {
-    border: 3px solid red;
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
+    background:blue;
+}
+
+.navy {
+    background: orange;
+}
+
+.job {
+    background: green;
+}
+
+.places {
+    background:hotpink;
+}
+
+.footer {
+    background: purple;
 }
